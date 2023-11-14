@@ -87,7 +87,7 @@ const CreateOrganization = observer(({}) => {
   })
 
   return (
-    <div className="">
+    <div>
       {(organizations?.length ?? 0) > 0 ? (
         <p className="mb-2">Create a new organization</p>
       ) : (
